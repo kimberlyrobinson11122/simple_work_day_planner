@@ -1,5 +1,20 @@
+
+.roboto-mono body {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* .lexend-tera-<uniquifier> {
+  font-family: "Lexend Tera", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+} */
+
+
 body {
-  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
@@ -31,17 +46,17 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #b4ccd4;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #d09cc0;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #8bca8b;
   color: white;
 }
 
@@ -57,3 +72,23 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+#container {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bottom {
+  padding-top: 20px;
+  padding: 40px;
+  text-align: center;
+};
+
+.line-above {
+  border: none; 
+  border-top: 20px solid #4d0336;
+  width: 75%;
+  margin: auto;
+};
